@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy Mummy</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f5f2;
+      color: #2c2c2c;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: 300;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .hero {
+      padding: 80px 20px 40px;
+    }
+
+    .cta-btn {
+      background-color: #2c2c2c;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .cta-btn:hover {
+      background-color: #444;
+    }
+
+    .section {
+      margin-top: 80px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      margin: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer {
+      margin-top: 80px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    input {
+      padding: 12px;
+      width: 250px;
+      border-radius: 25px;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .grid {
+        flex-direction: column;
+      }
+
+      input {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container hero">
+    <h1>Yummy Mummy</h1>
+    <h2>A soft place for strong mothers.</h2>
+
+    <p>
+      You carry so much. This is where you don’t have to.
+    </p>
+
+    <br>
+
+    <form>
+      <input type="email" placeholder="Enter your email" required>
+      <button class="cta-btn">Join the Waitlist</button>
+    </form>
+  </div>
+
+  <div class="container section">
+    <h1>Your space to feel again</h1>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Emotional Support</h3>
+        <p>Gentle guidance for the days that feel heavy.</p>
+      </div>
+
+      <div class="card">
+        <h3>Daily Check-ins</h3>
+        <p>Because your feelings deserve to be seen too.</p>
+      </div>
+
+      <div class="card">
+        <h3>Private & Safe</h3>
+        <p>A judgment-free space designed just for moms.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container section">
+    <h1>You are not alone</h1>
+    <p>
+      Yummy Mummy was created from lived experience —  
+      for the mom who shows up every day, even when she’s breaking inside.
+    </p>
+  </div>
+
+  <div class="container footer">
+    <p>© 2026 Yummy Mummy. All rights reserved.</p>
+  </div>
+
+</body>
+</html>
